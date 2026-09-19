@@ -4,5 +4,5 @@ app = FastAPI()
 def process_message(message: str):
   return{
     "message" : message.upper()
-    
+    "length" : len(message)
   }
